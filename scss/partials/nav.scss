@@ -1,0 +1,26 @@
+.navbar{
+	background-color: #f5ad42;
+
+	.navbar-brand{
+		font-family: $brand_font,sans-serif;
+		font-size: 22px;
+	}
+
+	.nav-item{
+		@include fontStyling(18px,bold,white);
+	}
+}
+
+#carouselExampleCaptions{
+	margin-top:20px;
+
+}
+
+.carousel-item{
+
+	img{
+		height:600px;
+		
+	}
+}
+

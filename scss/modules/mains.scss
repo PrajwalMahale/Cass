@@ -1,0 +1,23 @@
+.card{
+	margin:15px;
+	.card-title{
+    	@include responsive(md) {
+    		font-size:40px !important;
+    		text-align: justify
+    	}
+    	@include responsive(sm) {
+    		font-size:40px !important;
+    	}
+    }
+    .card-text{
+    	@include responsive(md) {
+    		font-size:30px !important;
+    		text-align: justify
+    	}
+    	@include responsive(sm) {
+    		font-size:30px !important;
+    	}
+    }
+
+}
+
